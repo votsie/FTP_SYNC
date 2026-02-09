@@ -1,0 +1,26 @@
+{
+    "local_ftp": {
+        "host": "0.0.0.0",
+        "port": 2121,
+        "user": "localuser",
+        "password": "localpass",
+        "root": "./ftp_root",
+        "permissions": "elradfmw"
+    },
+    "remote_ftp": {
+        "host": "ftp.example.com",
+        "port": 21,
+        "user": "remoteuser",
+        "password": "remotepass",
+        "root": "/",
+        "tls": false
+    },
+    "sync": {
+        "interval_seconds": 30,
+        "on_upload": true
+    },
+    "mirror": {
+        "interval_days": 3,
+        "delete_orphans": true
+    }
+}

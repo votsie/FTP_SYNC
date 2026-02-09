@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pyftpdlib
+watchdog
+pystray
+Pillow
+pyinstaller
